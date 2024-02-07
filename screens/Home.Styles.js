@@ -6,13 +6,13 @@ const styles = StyleSheet.create({
         fontSize: 40
     },
     appBarWrapper:{
-        marginHorizontal: 22,
+        marginHorizontal: 25,
         marginTop: 12,
     },
     appBar:{
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     location:{
         fontFamily: 'semibold',
@@ -34,9 +34,11 @@ const styles = StyleSheet.create({
         fontFamily: 'regular',
         fontWeight: '600',
         fontSize: 10,
-        color: 'lightwhite'
+        color: 'white'
     }
 
 
 
 });
+
+export default styles ;
