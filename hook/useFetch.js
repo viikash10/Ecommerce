@@ -14,10 +14,10 @@ const useFetch = () =>{
     try {
         //const response = await axios.get('http://localhost:3000/api/products/') ;
         //const response = await axios.get('exp://8xjs4ay.vikash_10.8081.exp.direct/api/products/');
-        // fetch('https://fakestoreapi.com/products/1')
-        //     .then(res=>res.json())
-        //     .then(json=>console.log(json))
-        const response = fetch('https://fakestoreapi.com/products/1');
+        const response = fetch('https://fakestoreapi.com/products/')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+        //const response = fetch('https://fakestoreapi.com/products/');
 
         console.log(response.data) ;
         setData(response.data) ;
