@@ -4,7 +4,7 @@ import styles from './ProductCardView.Style'
 import { Ionicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
 
-const ProductCardView = () => {
+const ProductCardView = ({item}) => {
 
  const navigation = useNavigation();
 
